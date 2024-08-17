@@ -10,8 +10,11 @@ Para solucionar el problema, han creado una lista (tu entrada al desafío) de co
 Ejemplo de la lista:
 
 2-4 f: fgff
+
 4-6 z: zzzsg
+
 1-6 h: hhhhhh
+
 Cada línea indica, separado por :, la política de la clave y la clave misma.
 
 La política de la clave especifica el número mínimo y máximo de veces que un carácter dado debe aparecer para que la clave sea válida. Por ejemplo, 2-4 f significa que la clave debe contener f al menos 2 veces y como máximo 4 veces.
