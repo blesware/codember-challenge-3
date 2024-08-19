@@ -12,19 +12,19 @@ public class Challenge_3 {
 
         String banner = """
         
-        ██████╗ ██╗     ███████╗███████╗██╗    ██╗ █████╗ ██████╗ ███████╗
-        ██╔══██╗██║     ██╔════╝██╔════╝██║    ██║██╔══██╗██╔══██╗██╔════╝
-        ██████╔╝██║     █████╗  ███████╗██║ █╗ ██║███████║██████╔╝█████╗  
-        ██╔══██╗██║     ██╔══╝  ╚════██║██║███╗██║██╔══██║██╔══██╗██╔══╝  
-        ██████╔╝███████╗███████╗███████║╚███╔███╔╝██║  ██║██║  ██║███████╗
-        ╚═════╝ ╚══════╝╚══════╝╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+            ██████╗ ██╗     ███████╗███████╗██╗    ██╗ █████╗ ██████╗ ███████╗
+            ██╔══██╗██║     ██╔════╝██╔════╝██║    ██║██╔══██╗██╔══██╗██╔════╝
+            ██████╔╝██║     █████╗  ███████╗██║ █╗ ██║███████║██████╔╝█████╗  
+            ██╔══██╗██║     ██╔══╝  ╚════██║██║███╗██║██╔══██║██╔══██╗██╔══╝  
+            ██████╔╝███████╗███████╗███████║╚███╔███╔╝██║  ██║██║  ██║███████╗
+            ╚═════╝ ╚══════╝╚══════╝╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 
-        Desafio semana 3 de Codember v1.0
+            Desafio semana 3 de Codember v1.0
 
-        (En Windows presiona Ctrl + Z en una nueva línea para terminar de leer)
-        (En Linux Ctrl + D en una nueva línea para terminar de leer)
+            (En Windows presiona Ctrl + Z en una nueva línea para terminar de leer)
+            (En Linux Ctrl + D en una nueva línea para terminar de leer)
 
-        Ingresa un texto:""";
+            Ingresa un texto:""";
 
         System.out.println(banner);        
 
@@ -77,7 +77,7 @@ public class Challenge_3 {
 
                 validKeys++;
             }        
-        }
+        }        
 
         System.out.println("Total de claves analizadas: " + keys.size());
         System.out.println("Claves Invalidas: " + invalidKeys);
